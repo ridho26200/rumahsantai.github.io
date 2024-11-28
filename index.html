@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ridho Abni - Frontend Web Developer </title>
+    <link rel="icon" type="image/x-icon" href=="">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 821px)" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav id="navbar" class="flex s-around bg-color">
+        <div class="left-nav">
+            <h2 class="t-white">Portopolio</h2>
+        </div>
+        <div class="right-nav">
+            <ul class="flex">
+                <li><a href="#home" class="t-white roboto">Home</a></li>
+                <li><a href="#about" class="t-white roboto">About Me</a></li>
+                <li><a href="#skills" class="t-white roboto">Skills</a></li>
+                <li><a href="#services" class="t-white roboto">services</a></li>
+                <li><a href="#projects" class="t-white roboto">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Bottom Navigator -->
+    <section id="bottom">
+        <div class="bottom-nav flex s-center items-center">
+            <ul class="flex s-around items-center">
+                <a href="#home">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-house"></i></li>
+                </a>
+                <a href="#about">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-user"></i></li>
+                </a>
+                <a href="#skills">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-code"></i></li>
+                </a>
+                <a href="#services">
+                    <li class="bottomo-hover flex s-center items-center">
+                        <i class="fa-solid fa-rocket"></i>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Home Section -->
+    <section id="home" class="flex s-around sw-80 m-auto">
+        <div class="home-left flex items-center">
+            <div class="home-content">
+                <h6 class="poppinss">Hi, saya</h6>
+                <h1 class="t-white">Ridho Abni Putra</h1>
+                <h4 class="poppinss">Frontend Web Developer</h4>
+                <a href="#" target="_blank"><button
+                        class="btn poppins">Resume</button></a>
+                <a class="btn live poppins" id="hireme" href=""
+                    target="_blank">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-right flex s-center items-center">
+            <div class="circle flex s-center items-center" id="mainImage">
+                <!-- Here in src replace the given link with your image link -->
+                <img src="./image/pp.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1 class="t-center my-2 t-white f-2">About Me</h1>
+        <div class="about-container flex s-around ">
+            <div class=" about-left flex s-center items-center">
+                <!-- Here in src replade the given link with your secondary image link -->
+                <img src="./image/ridho2.jpg" alt="" style="width: 50%;">
+            </div>
+
+            <div class="about-right flex">
+                <div class="about-content">
+                    <h1 class="t-white m-b-1 poppins">Ridho Abni Putra</h1>
+                    <p class="t-white poppins">Saya adalah web developer dalam bidang Frontend yang bisa dibilang masih dalam tahap pembelajaran dan desain web.<br> 
+                        Saya memiliki visi kreatif dan kemampuan teknis yang kuat untuk menghadirkan solusi desain  sebuah web yang menarik dan efektif.<br>
+                        Saya Lulusan SMA Negeri 17 Kota Bekasi, yang sekarang sedang melanjutkan pendidikan S1 dengan Prodi Rekayasa Perangkat Lunak di Bina Insani University.<br> 
+                        Saya tinggal di jalan DR.Ratna Gang Hj.Nelin RT05/01 Jatikramat Jatiasih kota bekasi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h1 class="t-center my-2 t-white f-2">Skills</h1>
+        <div class="services-container flex s-around h-50"">
+        <div class=" skills-left flex s-center items-center">
+            <img src="./image/skills.png" alt="">
+        </div>
+
+        <div class="skills-right flex items-center">
+            <div class="skillss-container">
+                <div class="html bar p-relative"><span class="bar-content left t-white">HTML</span><span
+                        class="bar-content right-skills t-white">80%</span></div>
+                <div class="css bar p-relative"><span class="bar-content left t-white">CSS</span><span
+                        class="bar-content right-skills t-white">80%</span></div>
+                <div class="js bar p-relative"><span class="bar-content left t-white">Java</span><span
+                        class="bar-content right-skills t-white">50%</span></div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h1 class=" t-center my-2 t-white f-2">Services</h1>
+        <div class="services-container flex s-center">
+            <div class="test-item flex f-col items-center">
+                <img src="./image/developer.png" alt="">
+                <h1 class="t-white poppins">Web Development</h1>
+                <p class="t-white poppins">Pengembangan Web berkembang dimana-mana. Setiap startup dan setiap bisnis
+                    memiliki situs web sendiri. Sesuai hasrat saya, saya akan membantu Anda membangun situs web yang bersih dan cepat untuk Anda
+                    startup atau bisnis Anda.</p>
+            </div>
+            <div class="test-item flex f-col items-center">
+                <img src="./image/social-media-management.png" alt="">
+                <h1 class="t-white poppins">Social Media Management</h1>
+                <p class="t-white poppins">kesadaran bagaimana mengelola media sosial Anda dan keinginan untuk meningkatkan loyalitas pelanggan.</p>
+            </div>
+            <div class="test-item flex f-col items-center">
+                <img src="./image/startup.png" alt="">
+                <h1 class="t-white poppins">Growth Strategies</h1>
+                <p class="t-white poppins">Sebagai pengembang web juga saya akan membantu merek Anda berkembang. saya akan menyediakan
+                    strategi pertumbuhan merek Anda. Dan juga membantu dalam mencari teknik untuk merek Anda.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h1 class=" t-center my-2 t-white f-2">Projects</h1>
+        <div class="projects-container flex s-center">
+            <div class="projects-item flex f-col s-center items-center">
+                <div class="image-container p-one">
+                    <img src="./image/Screenshot 2024-11-28 094839.png" alt="">
+                </div>
+                <h1 class="t-white poppins">WEB PROMO AC</h1>
+                <p class="t-white poppins">Halaman web sederhana menggunakan bahasa HTML, CSS Dan PHP. Website ini untuk promo ac dimana
+                    menyediakan semua informasi layanan mereka di halaman web ini.</p>
+            </div>
+            <div class="projects-item flex f-col s-center items-center">
+                <div class="image-container p-three">
+                    <img src="./image/login.png" alt="">
+                </div>
+
+                <h1 class="t-white poppins">Login Form</h1>
+                <p class="t-white poppins">Sebuah Halaman Login sederhana dengan menggunakan bahasa HTML, CSS Dan PHP. Dimana halaman login ini tersedia username dan password</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer id="footer">
+        <ul class="flex s-center w-80 m-auto my-2 res">
+            <li><a href="#home" class="poppinss">Home</a></li>
+            <li><a href="#about" class="poppinss">About</a></li>
+            <li><a href="#skills" class="poppinss">Skills</a></li>
+            <li><a href="#projects" class="poppinss">Projects</a></li>
+        </ul>
+        <ul class="flex s-center w-80 font-awesome ">
+            <a href="https://wa.me/6285779438262" target="_blank">
+                <li><i class="fab fa-whatsapp"></i></li>
+            </a>
+            <a href="https://www.instagram.com/ridhoabtra/" target="_blank">
+                <li><i class="fa-brands fa-instagram"></i></li>
+            </a>
+            <a href="" target="_blank">
+                <li><i class="fa-brands fa-youtube"></i></li>
+            </a>
+        </ul>
+        <p class="t-center my-2 poppins">&copy; All Rights Reserved </p>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
